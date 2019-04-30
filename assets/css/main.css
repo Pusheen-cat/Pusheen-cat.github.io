@@ -1817,7 +1817,7 @@ input, select, textarea {
 		left: 0;
 		top: 0;
 		width: 100%;
-		background: rgba(255, 255, 255, 0.95);
+		background: rgba(255, 255, 255, 0.7);
 		height: 3em;
 		line-height: 3em;
 		box-shadow: 0 0 0.15em 0 rgba(0, 0, 0, 0.1);
@@ -1874,7 +1874,7 @@ input, select, textarea {
 				#header h1 {
 					text-align: left;
 					position: relative;
-					left: 0;
+					left: 1;
 					top: 0;
 					height: 2.5em;
 					line-height: 2.5em;
@@ -1883,10 +1883,17 @@ input, select, textarea {
 					#header h1 a {
 						font-size: 1em;
 					}
-
-				#header nav {
-					display: none;
+            #header nav {
+                position: absolute;
+                right: 0.5em;
+                top: 0;
+                height: 2.5em;
+                line-height: 2.5em;
+		  }
+				#header nav ul li div{
+					display:none;
 				}
+                
 
 		}
 
@@ -1944,7 +1951,8 @@ input, select, textarea {
 			.main.style1 h2 {
 				font-size: 3.2em;
 				line-height: 1em;
-                opacity: 0.8;
+                opacity: 0.9;
+                text-shadow: 1px 1px 1px black;
 			}
 
 			.main.style1 > .content {
@@ -1958,6 +1966,9 @@ input, select, textarea {
 				transform: translateZ(0);
 				opacity: 0.9;
 				margin: 0;
+                text-shadow: 1px 1px 3px black;
+                padding: 15px 0px 0px 0px;
+                //background-color:rgba(255, 255, 255, 0.4);
 			}
 
 			.main.style1.inactive > .content {
