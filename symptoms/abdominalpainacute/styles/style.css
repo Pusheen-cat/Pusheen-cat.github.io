@@ -7,6 +7,7 @@ html,body {
   text-align: center;
   font-family: 'Raleway', Helvetica, sans-serif;
   min-width: 320px;
+    
 }
 
 header {
@@ -19,7 +20,7 @@ header {
   background-color: rgba(250, 250, 250,0.88);
   margin: 0 auto;
   border-radius: 4px;
-  width: 75%;
+  width: 90%;
   max-width: 900px;
   padding: 10px;
   padding-top: 20px;
@@ -48,6 +49,35 @@ header {
   margin: 10px;
   border: 1px solid #c0c0c0;
   border-radius: 2px;
+}
+.button {
+  background-color: rgba(51,255,51,0.8);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 19px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.button1 {
+  background-color: rgba(51,255,51,0);
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 8px 19px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+nav{
+text-align: center;
 }
 
 #userAge {
@@ -126,7 +156,32 @@ input[type="checkbox"] {
 }
 
 
-#abdmove,#painspread,#chronictime,#pregnency,#acutetime,#frequency,#characterself,#obgyassociated,#factor1,#factor2,#factor3,#factor4,#factor5,#factor6,#medicalcheckyear,#dizhisself{
+
+#abdmove,#painspread,#chronictime,#pregnency,#acutetime,#frequency,#characterself,#obgyassociated,#factor1,#factor2,#factor3,#factor4,#factor5,#factor6,#medicalcheckyear,#dizhisself,#fmdizhisself,#pilltakeself,#alcholtakeself,#smoketakeself{
     display: none
     
+}
+#previousbutten{
+    visibility: hidden
+}
+.forform{
+    visibility: hidden
+}
+
+#freetext,#onset,#painlocation,#duration,#coexch,#associated,#factor,#medicheck,#socialhis,#female,#lastcomment,#beforesubmit{
+    display: none
+    
+}
+#description{
+    text-shadow: 2px 2px 4px rgb(200,200,200);
+    font-size: large;
+    font-weight: bold;
+}
+
+#summary{
+    line-height: 
+    margin: auto;
+    border: 3px solid green;
+    padding: 10px;
+    text-align: left;
 }

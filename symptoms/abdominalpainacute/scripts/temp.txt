@@ -1,0 +1,15 @@
+basicinfo
+freetext
+onset
+painlocation
+duration
+coexch
+associated
+factor
+medicheck
+socialhis
+female
+lastcomment
+beforesubmit
+
+previousbutten
