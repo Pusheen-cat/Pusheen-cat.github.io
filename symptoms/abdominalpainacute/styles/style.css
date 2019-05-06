@@ -20,10 +20,11 @@ header {
   background-color: rgba(250, 250, 250,0.88);
   margin: 0 auto;
   border-radius: 4px;
-  width: 90%;
-  max-width: 900px;
+  width: 80%;
+  max-width: 1200px;
   padding: 10px;
   padding-top: 20px;
+  font-size: 20px;
 }
 
 .labels {
@@ -43,7 +44,7 @@ header {
 }
 
 .input-field {
-  height: 20px;
+  height: 30px;
   width: 280px;
   padding: 5px;
   margin: 10px;
@@ -59,7 +60,7 @@ header {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   margin: 4px 2px;
   cursor: pointer;
 }
@@ -129,8 +130,11 @@ input[type="checkbox"] {
   padding-bottom: 10px;
 }
 
-@media screen and (max-width: 833px) {
-  .input-field {
+@media screen and (max-width: 1280px) {
+   #form-outer {
+      width: 90%;
+    }
+    .input-field {
     width: 80%;
   }
   select {
@@ -138,13 +142,16 @@ input[type="checkbox"] {
   }
 }
 
-@media screen and (max-width: 520px) {
-  .labels {
+@media screen and (max-width: 960px) {
+  #form-outer {
+      width: 95%;
+    }
+    .labels {
     width: 100%;
     text-align: left;
   }
   .rightTab {
-    width: 80%;
+    width: 90%;
     float: left;
   }
   .input-field {
@@ -154,7 +161,9 @@ input[type="checkbox"] {
     width: 100%;
   }
 }
-
+@-ms-viewport {width: device-width;}
+@-o-viewport {width: device-width;}
+@viewport {width: device-width;}
 
 
 #abdmove,#painspread,#chronictime,#pregnency,#acutetime,#frequency,#characterself,#obgyassociated,#factor1,#factor2,#factor3,#factor4,#factor5,#factor6,#medicalcheckyear,#dizhisself,#fmdizhisself,#pilltakeself,#alcholtakeself,#smoketakeself{
