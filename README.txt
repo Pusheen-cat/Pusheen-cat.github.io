@@ -1,3 +1,6 @@
+재가공 및 상업적 용도로 사용 금지
+
+-------------------------------------------------------------------------------------
 Big Picture by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
